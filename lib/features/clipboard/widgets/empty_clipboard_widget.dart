@@ -20,7 +20,7 @@ class EmptyClipboardWidget extends StatelessWidget {
             child: Image.asset(
               'assets/images/empty.png',
               color: Theme.of(context).textTheme.bodyLarge!.color,
-              height: 80.0,
+              height: 60.0,
             ),
           ),
           Text(

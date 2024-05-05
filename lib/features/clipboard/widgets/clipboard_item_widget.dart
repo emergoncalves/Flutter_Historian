@@ -40,8 +40,9 @@ class ClipboardItemWidget extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(
-                      color:
-                          isSelected ? Colors.teal : Colors.blueGrey.shade700,
+                      color: isSelected
+                          ? Colors.deepPurpleAccent
+                          : Colors.blueGrey.shade700,
                       width: isSelected ? 1.5 : 0.5,
                     ),
                   ),

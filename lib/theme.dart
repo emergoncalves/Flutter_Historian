@@ -31,6 +31,7 @@ class AppTheme {
   );
 
   static final darkTheme = ThemeData.dark().copyWith(
+    scaffoldBackgroundColor: const Color.fromARGB(255, 21, 11, 68),
     textTheme: const TextTheme(
       bodyLarge: TextStyle(
         color: Colors.grey,
@@ -52,7 +53,7 @@ class AppTheme {
     ),
     buttonTheme: const ButtonThemeData(
       colorScheme: ColorScheme.dark(
-        background: Color(0xFF302B36),
+        background: Color.fromARGB(255, 106, 13, 219),
       ),
     ),
   );
