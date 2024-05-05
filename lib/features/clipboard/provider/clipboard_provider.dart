@@ -307,7 +307,7 @@ class ClipboardProvider extends ChangeNotifier with ClipboardListener {
 
   void clearClipboard() {
     _imageCount = 0;
-    _clipboard.clear();
+    _clipboard.removeWhere((item) => !item.isPinned);
     _imageAutoDeleteIndex = 0;
     PaintingBinding.instance.imageCache.clear();
 
